@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-  gtdg
+  
 	int d  , g ; 
 	d=khoangcach ;
 	g=giatridonhang ;
