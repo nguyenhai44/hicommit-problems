@@ -9,6 +9,8 @@ int main() {
   scanf("%d",&giatridonhang) ;
   int d=khoangcach ;
   int g=giatri ;
+  int d=14 ;
+  int g=50000 ;
   
   
 	
