@@ -4,8 +4,8 @@ int main()
 	int n ;
 	scanf("%d", &n) ;
 	if (n%2== 0) 
-	printf("chan") ; 
+	printf("CHAN") ; 
 	else 
-	printf("le") ;
+	printf("LE") ;
 	return 0 ;
 }
