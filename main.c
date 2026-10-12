@@ -1,10 +1,18 @@
 #include <stdio.h>
 
 int main() {
+  int khoangcach ;
+  int giatridonhang ;
+  printf("khoangcach : ") ;
+  scanf("%d", &khoangcach) ; 
+  printf("giatridonhang :") ; 
+  scanf("%d",&giatridonhang) ;
+  int d=khoangcach ;
+  int g=giatri ;
+  
   
 	
-	int d=khoangcach ;
-	int g=giatridonhang ;
+	
 }
 {
 
