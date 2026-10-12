@@ -2,9 +2,9 @@
 
 int main() {
   
-	int d  , g ; 
-	d=khoangcach ;
-	g=giatridonhang ;
+	
+	int d=khoangcach ;
+	int g=giatridonhang ;
 }
 {
 
