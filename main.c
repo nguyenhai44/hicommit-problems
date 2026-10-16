@@ -8,7 +8,7 @@ int main ()
 		printf("LANH");
 	
 	}
-else if ( 15<t<25) {
+else if ( t<25) {
 	printf("MAT") ;
 }
 else if (t<35) {
