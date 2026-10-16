@@ -10,5 +10,5 @@ int main ()
 			 	else if ( c > a) ;
  max = c
 			 
-			 return 0 ;
+			
 }
