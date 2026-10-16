@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdio.h>
 int main ()
 {
 	int t ;
@@ -10,13 +9,13 @@ int main ()
 	
 	}
 else if ( t<25) {
-	printf("MAT") ;
+	printf("LANH") ;
 }
 else if (t<35) {
 	printf ("NONG");
 }
 else {
-	printf("RATNONG") ;
+	printf("RAT_NONG") ;
 	return 0 ;
 }
 }
