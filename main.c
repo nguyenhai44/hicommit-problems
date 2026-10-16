@@ -9,7 +9,7 @@ int main ()
 	
 	}
 else if ( t<25) {
-	printf("LANH") ;
+	printf("MAT") ;
 }
 else if (t<35) {
 	printf ("NONG");
