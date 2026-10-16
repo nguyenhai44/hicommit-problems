@@ -1,11 +1,13 @@
-// HICOMMIT TEMPLATE FOR C
 #include <stdio.h>
-
-int main() {
-    
-    /*
-        Your code goes here. Happy coding!
-    */
-
-    return 0;
+int main()
+{
+int a;
+int b;
+int c;
+int max=a;
+if (b>max)
+max=b ;
+if (c>max)
+max=c;
+  return 0;
 }
