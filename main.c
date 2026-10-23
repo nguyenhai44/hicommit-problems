@@ -6,9 +6,9 @@ int main() {
   if (dtb>=9.00){
     printf("A\n") ;
   }
-  else (8.0<=dtb){
+  if (8.0<=dtb){
     printf("B+\n") ;
-  }
+  
      if (7.0<=dtb)
     {
       printf("B\n") ;
@@ -31,6 +31,7 @@ int main() {
   if (dtb<=4.0)
   {
     printf ("F\n") ;
+  }
   }
     return 0;
 }
