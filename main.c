@@ -13,7 +13,7 @@ int main() {
       case 4 :
         printf("XEP_LOAI_TRUNG_BINH") ; break ;
      default :
-        printf("KHONG_HOP_le") ; break ;
+        printf("KHONG_HOP_lE") ; break ;
 }
   return 0;
 }
