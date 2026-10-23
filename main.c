@@ -6,15 +6,15 @@ int main() {
   {
     printf("A : \n") ;
   }
-  else if(8.0>=a>=8.9)
+   if(8.0>=a>=8.9)
   {
     printf("B+") ;
   }
-  else if (7.0>=a>=7.9) ;
+  if (7.0>=a>=7.9) ;
   {
     printf("B") ;
   }
-  else if (6.5>=a>=6.9) 
+   if (6.5>=a>=6.9) 
   {
     printf("C+") ;
   }
