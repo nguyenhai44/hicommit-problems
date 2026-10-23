@@ -23,10 +23,10 @@ int main() {
   }
   else if (4.0<=dtb<=4.9) {
     printf("D\n") ;
-  }
+  }*/
   else 
   {
     printf ("F\n") ;
-  }*/
+  }
     return 0;
 }
