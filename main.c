@@ -8,7 +8,7 @@ int main() {
   }
   if (8.0<=dtb){
     printf("B+\n") ;
-  
+  }
      if (7.0<=dtb)
     {
       printf("B\n") ;
@@ -32,6 +32,6 @@ int main() {
   {
     printf ("F\n") ;
   }
-  }
+  
     return 0;
 }
