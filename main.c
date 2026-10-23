@@ -3,35 +3,35 @@ int main() {
   double dtb;
   scanf("%f",&dtb) ;
   
-  {if (dtb>=9.00 && dtb>=10.0){
+  if (dtb>=9.00 && dtb>=10.0){
     printf("A\n") ;
   }
-  if (8.0<=dtb){
+  else if (dtb>=8.0 && dtb>=8.9){
     printf("B+\n") ;
   }
-     if (7.0<=dtb)
+     else if (dtb>=7.0) && dtb>=7.9)
     {
       printf("B\n") ;
     }
-       if (6.5<=dtb)
+       else if (dtb>=6.5) && dtb>=6.9)
        {
          printf("C+\n") ;
        }
-         else (5.5<=dtb)
+         else if (dtb>=5.5 && dtb>=6.4)
   {
     printf ("C") ;
   }
-  if (5.0<=dtb){
+ else if (dtb>=5.0 && dtb>=5.4){
     printf("D+") ;
   }
-    else (4.0<=dtb)
+    else if  (dtb>=4.0 && dtb>=4.9)
   {
     printf("D") ;
   }
-  if (dtb<=4.0)
+  else if (dtb<=4.0)
   {
     printf ("F\n") ;
   }
-  }
+
     return 0;
 }
