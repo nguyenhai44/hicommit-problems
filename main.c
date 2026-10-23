@@ -4,7 +4,7 @@ int main() {
   scanf("%f",&a) ;
   if (9.0>=a>=10.0) 
   {
-    printf("A : \n") ;
+    printf("A") ;
   }
    if(8.0>=a>=8.9)
   {
