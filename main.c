@@ -1,22 +1,31 @@
 #include <stdio.h>
 int main() {
-  float a ;
-  scanf("%f",&a) ;
-  if (9.0>=a>=10.0) 
+    double dtb;
+scanf("%f",&dtb) ;
+  if (dtb>=9.00)
+    printf("A\n") ;
+  else if (8.0<=dtb<=8.9)
+    printf("B+\n") ;
+  else if (7.0<=dtb<=7.9)
+    printf("B\n") ;
+  else if (6.5<=dtb<=6.9)
   {
-    printf("A") ;
+    printf("C+\n") ;
   }
-   else if(8.0>=a>=8.9)
+  else if (5.5<=dtb<=6.4)
   {
-    printf("B+") ;
+    printf("C\n") ;  
   }
-  if else (7.0>=a>=7.9) ;
+  else if (5.0<=dtb<=5.4) 
+  { 
+    printf("D+\n") ;
+  }
+  else if (4.0<=dtb<=4.9) {
+    printf("D\n") ;
+  }
+  else 
   {
-    printf("B") ;
+    printf ("F\n") ;
   }
-   if (6.5>=a>=6.9) 
-  {
-    printf("C+") ;
-  }
-  return 0;
+    return 0;
 }
