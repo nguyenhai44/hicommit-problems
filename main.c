@@ -1,12 +1,13 @@
 #include <stdio.h>
 int main() {
-    double dtb;
-scanf("%f",&dtb) ;
+  double dtb;
+  scanf("%f",&dtb) ;
+  
   if (dtb>=9.00)
     printf("A\n") ;
-  else if (8.0<=dtb<=8.9)
+  else if (8.0<=dtb)
     printf("B+\n") ;
-  else if (7.0<=dtb<=7.9)
+  /*else if (7.0<=dtb<=7.9)
     printf("B\n") ;
   else if (6.5<=dtb<=6.9)
   {
@@ -26,6 +27,6 @@ scanf("%f",&dtb) ;
   else 
   {
     printf ("F\n") ;
-  }
+  }*/
     return 0;
 }
