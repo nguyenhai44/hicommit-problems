@@ -3,7 +3,7 @@ int main() {
   double dtb;
   scanf("%f",&dtb) ;
   
-  if (dtb>=9.00 && dtb>=10.0){
+  {if (dtb>=9.00 && dtb>=10.0){
     printf("A\n") ;
   }
   if (8.0<=dtb){
@@ -32,6 +32,6 @@ int main() {
   {
     printf ("F\n") ;
   }
-  
+  }
     return 0;
 }
