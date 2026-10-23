@@ -6,11 +6,11 @@ int main() {
   {
     printf("A") ;
   }
-   if(8.0>=a>=8.9)
+   else if(8.0>=a>=8.9)
   {
     printf("B+") ;
   }
-  if (7.0>=a>=7.9) ;
+  if else (7.0>=a>=7.9) ;
   {
     printf("B") ;
   }
