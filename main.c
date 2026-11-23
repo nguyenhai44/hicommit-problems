@@ -10,7 +10,7 @@ int main() {
   else if (gpa>=6.5 && min>=5){
     printf("GOOD") ;
   }
-  else (gpa>=5 && min>=4) {
+  else if (gpa>=5 && min>=4) {
     printf("PASS") ;
   }
   if (abs>3) {
