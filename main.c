@@ -2,7 +2,7 @@
 int main ()
 {
  double d ;
-  double tien ;
+  double tien = 0;
   scanf("%lf" , &d) ;
   if (1<=d) {
     tien= d*15000 ;
