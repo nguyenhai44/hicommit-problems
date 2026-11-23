@@ -19,5 +19,8 @@ int main() {
   else if (gpa>=5.0 && min>=4.0) {
     printf("PASS") ;
   }
+  else {
+    printf("FAIL") ;
+  }
   return 0;
 }
