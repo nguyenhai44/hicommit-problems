@@ -4,7 +4,7 @@ int main() {
     int d, m, y;
     int maxDay;
 
-    scanf("%d%d%d", &d, &m, &y)
+    scanf("%d%d%d", &d, &m, &y) ;
 
     if (y <= 0 || m < 1 || m > 12 || d < 1) {
         printf("INVALID");
