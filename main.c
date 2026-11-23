@@ -1,10 +1,10 @@
 #include <stdio.h>
 int main ()
 {
- double d ;
+   double d ;
   double tien = 0;
   scanf("%lf" , &d) ;
-  if (1<=d) {
+  if (d <= 1) {
     tien= d*15000 ;
   }
   else if (d<=5) {
