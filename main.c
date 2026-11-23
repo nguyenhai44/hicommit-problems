@@ -13,6 +13,6 @@ int main ()
   else {
     tien=1*15000+4*13000+(d-5)*11000;
   }
-  printf("%lf",tien) ;
+  printf("%.0lf",tien) ;
   return 0;
 }
